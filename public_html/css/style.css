@@ -117,12 +117,13 @@ li a:hover {
   color: white;
   padding-top: 15px;
   margin: 0px 0px 0px;
-  height: 300px;
+  height: 350px;
   text-align: center;
 }
 
 #bio-box {
     padding: 10px;
+    font-size: 15px;
     display: inline-block;
     height: 150px;
     width: 75%;
@@ -132,25 +133,23 @@ li a:hover {
     border-bottom: 3px solid white;
     line-height: 2.0;
 }
-#AboutButton {
+.AboutButton {
   background-color: transparent;
   border-radius: 15px;
-  margin-top: 15px;
+  margin-top: 25px;
   border: 3px solid white;
   color: white;
-  padding: 10px 15px;
+  padding: 20px 15px;
+  padding-bottom: 10px
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
   cursor: pointer;
-  float: bottom;
-
 }
 
-#AboutButton a:hover {
-    border-color: #0066ff;
-
+.AboutButton:hover {
+    border-color: blue;
 }
 
 
