@@ -130,6 +130,7 @@ li a:hover {
     float: center;
     border-top: 3px solid white;
     border-bottom: 3px solid white;
+    line-height: 2.0;
 }
 #AboutButton {
   background-color: transparent;
